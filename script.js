@@ -1,27 +1,23 @@
 const data = {
   "Café de Olla": {
-    description: "Traditional Mexican coffee spiced with cinnamon and piloncillo.",
-    reviews: ["Great aroma!", "Authentic taste.", "Best served hot."]
+    description: "Spiced Mexican clay pot coffee, traditionally brewed with cinnamon and piloncillo.",
+    reviews: ["Amazing flavor!", "Perfect for winter mornings.", "Authentic and strong."]
   },
   "Italian Espresso": {
-    description: "A bold, rich espresso served in a small shot.",
-    reviews: ["Strong and smooth.", "Great energy boost!", "Pure Italian vibes."]
+    description: "Strong single shot of espresso brewed under high pressure.",
+    reviews: ["Super strong!", "Exactly like Italian cafes.", "Best energy booster."]
   },
-  "Masala Chai": {
-    description: "Spicy Indian milk tea with ginger, cardamom, and clove.",
-    reviews: ["Warm and spicy!", "Just like home.", "Loved it!"]
+  "Japanese Iced Coffee": {
+    description: "Drip coffee brewed directly over ice for a smooth, crisp taste.",
+    reviews: ["Refreshing and light.", "Perfect summer drink.", "Not too bitter, just right."]
   },
-  "Green Tea": {
-    description: "Light, antioxidant-rich tea, great for detox.",
-    reviews: ["Very refreshing.", "Healthy choice.", "Soothing flavor."]
+  "Flat White": {
+    description: "Espresso with silky microfoam milk, smoother than a latte.",
+    reviews: ["Very creamy!", "Great balance of coffee and milk.", "Best choice after lunch."]
   },
-  "French Fries": {
-    description: "Crispy golden fries with a dash of salt.",
-    reviews: ["Crispy!", "Loved it with ketchup.", "Simple and classic."]
-  },
-  "Burger": {
-    description: "Juicy patty with lettuce, tomato, and cheese in a bun.",
-    reviews: ["Delicious!", "Good portion size.", "Could eat every day."]
+  "Saudi Gahwa": {
+    description: "Light coffee infused with cardamom, dates often served alongside.",
+    reviews: ["Very unique taste.", "Fragrant and light.", "Love the spices!"]
   }
 };
 
@@ -30,7 +26,7 @@ document.querySelectorAll('.card').forEach(card => {
     const name = card.dataset.name;
     document.getElementById('modalTitle').innerText = name;
     document.getElementById('modalDescription').innerText = data[name].description;
-
+    
     const reviewsList = document.getElementById('modalReviews');
     reviewsList.innerHTML = '';
     data[name].reviews.forEach(review => {
