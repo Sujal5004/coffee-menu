@@ -1,35 +1,27 @@
 const data = {
   "Café de Olla": {
-    description: "Spiced Mexican clay pot coffee, traditionally brewed with cinnamon and piloncillo.",
-    reviews: ["Authentic and warm!", "Loved the aroma.", "Perfect for winter."]
+    description: "Traditional Mexican coffee spiced with cinnamon and piloncillo.",
+    reviews: ["Great aroma!", "Authentic taste.", "Best served hot."]
   },
   "Italian Espresso": {
-    description: "Strong single shot of espresso brewed under high pressure.",
-    reviews: ["Bold flavor.", "Very energizing.", "Tastes like Italy!"]
-  },
-  "Flat White": {
-    description: "Espresso with microfoam milk — smoother than latte.",
-    reviews: ["Smooth and creamy.", "Perfect balance.", "Mild yet flavorful."]
+    description: "A bold, rich espresso served in a small shot.",
+    reviews: ["Strong and smooth.", "Great energy boost!", "Pure Italian vibes."]
   },
   "Masala Chai": {
-    description: "Traditional Indian tea with milk, spices, and herbs.",
-    reviews: ["Spicy and sweet!", "Very comforting.", "My favorite morning tea."]
+    description: "Spicy Indian milk tea with ginger, cardamom, and clove.",
+    reviews: ["Warm and spicy!", "Just like home.", "Loved it!"]
   },
   "Green Tea": {
-    description: "A calming and healthy tea rich in antioxidants.",
-    reviews: ["Light and fresh.", "Very relaxing.", "Great after meals."]
+    description: "Light, antioxidant-rich tea, great for detox.",
+    reviews: ["Very refreshing.", "Healthy choice.", "Soothing flavor."]
   },
   "French Fries": {
-    description: "Crispy golden fries served with tomato ketchup.",
-    reviews: ["Perfectly crispy!", "Couldn’t stop eating.", "Classic snack."]
+    description: "Crispy golden fries with a dash of salt.",
+    reviews: ["Crispy!", "Loved it with ketchup.", "Simple and classic."]
   },
   "Burger": {
-    description: "Juicy grilled patty in a fresh bun with toppings.",
-    reviews: ["So juicy!", "Best burger I’ve had.", "Very filling."]
-  },
-  "Pizza": {
-    description: "Hot cheesy pizza with rich toppings and herbs.",
-    reviews: ["Melts in your mouth.", "Cheesy goodness!", "Super delicious."]
+    description: "Juicy patty with lettuce, tomato, and cheese in a bun.",
+    reviews: ["Delicious!", "Good portion size.", "Could eat every day."]
   }
 };
 
